@@ -47,7 +47,7 @@ The steps for creating an application are:
 4. Activte the virtual environment
 5. Install required modules into the virtual environment
 ```
-git clone https://github.com/leigh-jewell/dnaspaces_occupancy.git
+git clone https://github.com/leigh-jew  ell/dnaspaces_occupancy.git
 cd dnaspaces_occupancy
 python3 -m venv env
 source env/bin/activate
@@ -59,6 +59,6 @@ python3 -m pip install -r requirements.txt
 To run the application:
 
 ```
-python app.py
+python3 app.py
 ```
 This will run a local Flask web server on http://127.0.0.1:5000 which is helpful for testing.
