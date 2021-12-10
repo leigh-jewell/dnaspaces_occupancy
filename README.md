@@ -1,17 +1,15 @@
 # Cisco DNA Spraces Occupancy Tester
 Cisco DNA Spaces Occupancy testing tool.
 
+![example of tool](example.png)
+
 A small python script to test out  [Cisco DNA Spaces](https://dnaspaces.io). The script creates a web server
 using Flask and connects to DNA Spaces Firehose API to receive device count events. It will then show the data in 
 a searchable table.
 
 ## Getting Started
 * Have a look at the Cisco DNA Spaces API over at [DevNet](https://developer.cisco.com/docs/dna-spaces/#!dna-spaces-location-cloud-api).
-To get familiar with the APIs available.
-* Clone this repository into a directory to get the helper scripts:
-```
-git clone https://github.com/leigh-jewell/dnaspaces_occupancy.git
-```
+
 ### Prerequisites
 
 * Install [Python 3.9+](https://www.python.org/downloads/) with the appropriate distribution for your OS.
@@ -62,3 +60,4 @@ To run the application:
 python3 app.py
 ```
 This will run a local Flask web server on http://127.0.0.1:5000 which is helpful for testing.
+
